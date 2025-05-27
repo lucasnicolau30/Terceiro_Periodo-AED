@@ -51,6 +51,6 @@ while num_vertices != 0:
         u, v = [int(x) for x in input().split(',')]
         consultar_aresta(grafo, u, v)
 
-    input()  # descarta linha em branco
+    input()
     num_vertices = int(input())
     print()
