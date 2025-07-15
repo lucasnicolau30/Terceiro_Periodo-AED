@@ -25,7 +25,7 @@ def pos_ordem(arvore):
     pos_ordem(arvore['dir']) 
     print(arvore['valor'] , end = " ") 
     
-def rotacao(T): 
+def rotacaoRR(T): 
   if T is None or T['dir'] is None: 
     return T 
   nova_raiz = T['dir'] 
