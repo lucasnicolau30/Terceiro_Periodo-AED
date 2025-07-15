@@ -41,7 +41,7 @@ while caso != []:
   for valor in caso: 
     arvore = insere(arvore , valor) 
     
-  arvore = rotacao(arvore) 
+  arvore = rotacaoRR(arvore) 
   
   print(f'Arvore {contador}') 
   print("pre:" , end = " ") 
